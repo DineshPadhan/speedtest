@@ -75,7 +75,7 @@ var test_pointer = 0; //pointer to the next test to run inside settings.test_ord
 /*
   this function is used on URLs passed in the settings to determine whether we need a ? or an & as a separator
 */
-function url_sep(url) {
+export function url_sep(url) {
 	return url.match(/\?/) ? "&" : "?";
 }
 

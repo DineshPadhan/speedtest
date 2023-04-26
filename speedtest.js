@@ -1,3 +1,7 @@
+import {url_sep} from "/workspaces/speedtest/speedtest_worker.js";
+
+url = url_sep()
+
 /*
 	LibreSpeed - Main
 	by Federico Dossena
